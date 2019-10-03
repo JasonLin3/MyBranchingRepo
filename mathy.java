@@ -5,7 +5,8 @@ import java.text.NumberFormat;
 
 public class mathy
 {
-    private int [][] rectangle;
+
+    private int [][] square;
 
     /**
         default constructor - stubed in
@@ -246,14 +247,20 @@ public class mathy
 
 
 	}
-	public int conflict(int num)
+
+	public int conflictCode(int num)
 	{
-
-
-		//p1
-		return 0;
-
+		//p2
+		int x;
+		for(inti=0; i<0;i++)
+		{
+			x+=2;
+			num +=i*x;
+		}
+		return num;
 	}
+
+
 	public void testingbranch (int x)
 	{
 		System.out.print(x);
