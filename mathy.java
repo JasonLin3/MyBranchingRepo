@@ -246,6 +246,7 @@ public class mathy
 
 
 	}
+
 	public int conflictCode(int num)
 	{
 		//p2
@@ -257,6 +258,7 @@ public class mathy
 		}
 		return num;
 	}
+
 	public void testingbranch (int x)
 	{
 		System.out.print(x);
