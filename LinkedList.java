@@ -109,6 +109,7 @@ public class LinkedList
             temp = temp.next;
         }
         return false;
+
     }
 
     public Node getNode(int index)
@@ -268,7 +269,7 @@ public class LinkedList
             }
             position = previous;
             isAfterNext = false;
-            //first call to remove the current position 
+            //first call to remove the current position
             //reverts to the predecesor or removed element-->thus
             //predecesser is no longer known
         }
