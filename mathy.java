@@ -5,6 +5,7 @@ import java.text.NumberFormat;
 
 public class mathy
 {
+
     private int [][] square;
 
     /**
@@ -258,6 +259,7 @@ public class mathy
 		}
 		return num;
 	}
+
 
 	public void testingbranch (int x)
 	{
